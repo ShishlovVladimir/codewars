@@ -17,3 +17,5 @@ function quadrant(x, y) {
     if (x < 0 && y < 0) return 3;
     return 4;
 }
+
+console.log(quadrant(-5, -1));
