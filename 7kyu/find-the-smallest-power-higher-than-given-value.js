@@ -15,7 +15,6 @@
 //✅ SOLUTTION:
 function findNextPower(val, pow) {
   let number = +Math.pow(val, 1 / pow).toFixed(3);
-  console.log(number);
   return Number.isInteger(number)
     ? (++number) ** pow
     : Math.ceil(number) ** pow;
